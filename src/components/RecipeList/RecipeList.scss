@@ -1,0 +1,25 @@
+.container {
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  margin-left: 8rem !important;
+}
+.latest-recipes {
+  margin: 40px 90px;
+}
+.previous {
+  margin-left: 20px;
+  cursor: pointer;
+}
+.next {
+  cursor: pointer;
+}
+.next-previous {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: -8rem;
+  padding-bottom: 40px;
+}
+.recipe-wrapper {
+  height: 100vh;
+}

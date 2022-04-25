@@ -1,0 +1,54 @@
+@font-face {
+  font-family: "gilroi bold";
+  src: url("../fonts/Gilroy-ExtraBold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "gilroi light";
+  src: url("../fonts/Gilroy-light.otf") format("opentype");
+}
+.home {
+  font-family: "gilroi light";
+}
+.home-image {
+  right: 0;
+  top: 0;
+  background: #f1f7ea;
+  max-width: 58rem;
+  float: right;
+}
+.right-rail {
+  position: relative;
+}
+.typography-bold {
+  font-weight: bold;
+  font-family: gilroi bold;
+  top: 18rem;
+  z-index: 1;
+  left: 0;
+  font-size: 70px;
+  white-space: nowrap;
+}
+.typography-light {
+  font-size: 48px;
+  font-family: "gilroi light";
+  top: 24rem;
+  z-index: 1;
+  left: 0;
+  max-width: 413px;
+}
+.typography {
+  position: absolute;
+  z-index: 1;
+  width: 26rem;
+  top: 24rem;
+}
+.description {
+  width: 300px;
+  font-family: "gilroi light";
+}
+.right-rail-second {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
